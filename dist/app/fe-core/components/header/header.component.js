@@ -20,8 +20,11 @@ System.register(['@angular/core'], function(exports_1, context_1) {
         execute: function() {
             HeaderComponent = (function () {
                 function HeaderComponent() {
-                    this.partnerID = "partnerId";
                 }
+                __decorate([
+                    core_1.Input(), 
+                    __metadata('design:type', String)
+                ], HeaderComponent.prototype, "title", void 0);
                 HeaderComponent = __decorate([
                     core_1.Component({
                         selector: 'header-component',
