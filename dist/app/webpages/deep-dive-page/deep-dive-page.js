@@ -20,6 +20,7 @@ System.register(['@angular/core'], function(exports_1, context_1) {
         execute: function() {
             DeepDivePage = (function () {
                 function DeepDivePage() {
+                    this.title = "Everything that is deep dive will go in this page. Please Change according to your requirement";
                 }
                 DeepDivePage = __decorate([
                     core_1.Component({

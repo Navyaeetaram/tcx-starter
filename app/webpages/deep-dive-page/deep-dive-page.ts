@@ -7,5 +7,5 @@ import {Component} from '@angular/core';
 })
 
 export class DeepDivePage{
-
+    title="Everything that is deep dive will go in this page. Please Change according to your requirement";
 }
