@@ -4,14 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b854781c-11a9-45c9-9188-fdd3b25bdb63" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/app/ngModules/deep-dive.ngmodule.js.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webpages/deep-dive-page/deep-dive-page.html" afterPath="$PROJECT_DIR$/app/webpages/deep-dive-page/deep-dive-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/app/app-domain/app.component.html" afterPath="$PROJECT_DIR$/dist/app/app-domain/app.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/app/global/stylesheets/master.css" afterPath="$PROJECT_DIR$/dist/app/global/stylesheets/master.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/app/webpages/deep-dive-page/deep-dive-page.html" afterPath="$PROJECT_DIR$/dist/app/webpages/deep-dive-page/deep-dive-page.html" />
-    </list>
+    <list default="true" id="b854781c-11a9-45c9-9188-fdd3b25bdb63" name="Default" comment="" />
     <ignored path="tcx-starter-master.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -39,28 +32,6 @@
             <state relative-caret-position="165">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deep-dive-page.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/webpages/deep-dive-page/deep-dive-page.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.routing.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.routing.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -115,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app-domain/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -125,11 +96,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app-domain/app.component.ts">
+      <file leaf-file-name="syndicated-article-page.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/webpages/syndicated-article-page/syndicated-article-page.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="syndicated-article-page.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/webpages/syndicated-article-page/syndicated-article-page.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="syndicated-article-page.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/webpages/syndicated-article-page/syndicated-article-page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -170,6 +161,8 @@
         <option value="$PROJECT_DIR$/app/app-domain/app.component.less" />
         <option value="$PROJECT_DIR$/app/app-domain/app.component.html" />
         <option value="$PROJECT_DIR$/app/webpages/deep-dive-page/deep-dive-page.html" />
+        <option value="$PROJECT_DIR$/app/webpages/syndicated-article-page/syndicated-article-page.ts" />
+        <option value="$PROJECT_DIR$/app/webpages/syndicated-article-page/syndicated-article-page.html" />
       </list>
     </option>
   </component>
@@ -271,6 +264,10 @@
               <option name="myItemId" value="webpages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="syndicated-article-page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -287,10 +284,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webpages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deep-dive-page" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,12 +423,12 @@
       <workItem from="1474329323883" duration="63000" />
       <workItem from="1474391353065" duration="125000" />
       <workItem from="1474391505456" duration="392000" />
-      <workItem from="1474391989227" duration="2816000" />
+      <workItem from="1474391989227" duration="3380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11636000" />
+    <option name="totallyTimeSpent" value="12200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1920" height="989" extended-state="0" />
@@ -498,30 +491,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/app-domain/app.component.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app-domain/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app-domain/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/webpages/deep-dive-page/deep-dive-page.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -748,9 +717,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -814,6 +781,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webpages/syndicated-article-page/syndicated-article-page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webpages/syndicated-article-page/syndicated-article-page.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webpages/syndicated-article-page/syndicated-article-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>

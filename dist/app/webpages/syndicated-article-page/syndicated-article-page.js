@@ -20,6 +20,7 @@ System.register(['@angular/core'], function(exports_1, context_1) {
         execute: function() {
             SyndicatedArticlePage = (function () {
                 function SyndicatedArticlePage() {
+                    this.title = "Here we have syndicate article page";
                 }
                 SyndicatedArticlePage = __decorate([
                     core_1.Component({
