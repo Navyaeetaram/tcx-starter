@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
 import { GlobalModule } from './global.ngmodule';
-import { DeepDivePage } from "../webpages/deep-dive-page/deep-dive-page";
+import { SyndicatedArticlePage } from "../webpages/syndicated-article-page/syndicated-article-page";
 
 @NgModule({
     imports:[
@@ -10,12 +9,12 @@ import { DeepDivePage } from "../webpages/deep-dive-page/deep-dive-page";
       GlobalModule
     ],
     declarations:[
-      DeepDivePage,
+      SyndicatedArticlePage
     ],
     exports:[
-      DeepDivePage
+      SyndicatedArticlePage
     ],
     providers: []
 })
 
-export class DeepDiveNgModule{}
+export class SyndicatedArticleNgModule{}

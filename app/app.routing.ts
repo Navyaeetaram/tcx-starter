@@ -3,16 +3,21 @@ import { Routes, RouterModule } from '@angular/router';
 
 import {DeepDiveNgModule} from "./ngModules/deep-dive.ngmodule";
 import {DeepDivePage} from "./webpages/deep-dive-page/deep-dive-page";
+import {SyndicatedArticlePage} from "./webpages/syndicated-article-page/syndicated-article-page";
 
 const appRoutes: Routes = [
   {
     path: '',
-    redirectTo: '/home',
+    redirectTo: 'deep-dive',
     pathMatch: 'full'
   },
   {
-    path: 'home',
+    path: 'deep-dive',
     component: DeepDivePage
+  },
+  {
+    path: 'syndicated-article',
+    component: SyndicatedArticlePage
   }
 ];
 

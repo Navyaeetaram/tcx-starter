@@ -1,4 +1,4 @@
-System.register(["@angular/common", '@angular/core', "../fe-core/components/header/header.component"], function(exports_1, context_1) {
+System.register(['@angular/core'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,41 +10,27 @@ System.register(["@angular/common", '@angular/core', "../fe-core/components/head
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var common_1, core_1, header_component_1;
-    var GlobalModule;
+    var core_1;
+    var SyndicatedArticlePage;
     return {
         setters:[
-            function (common_1_1) {
-                common_1 = common_1_1;
-            },
             function (core_1_1) {
                 core_1 = core_1_1;
-            },
-            function (header_component_1_1) {
-                header_component_1 = header_component_1_1;
             }],
         execute: function() {
-            GlobalModule = (function () {
-                function GlobalModule() {
+            SyndicatedArticlePage = (function () {
+                function SyndicatedArticlePage() {
                 }
-                GlobalModule = __decorate([
-                    core_1.NgModule({
-                        imports: [
-                            common_1.CommonModule
-                        ],
-                        declarations: [
-                            header_component_1.HeaderComponent
-                        ],
-                        exports: [
-                            header_component_1.HeaderComponent
-                        ],
-                        providers: []
+                SyndicatedArticlePage = __decorate([
+                    core_1.Component({
+                        selector: 'syndicated-article-page',
+                        templateUrl: 'app/webpages/syndicated-article-page/syndicated-article-page.html'
                     }), 
                     __metadata('design:paramtypes', [])
-                ], GlobalModule);
-                return GlobalModule;
+                ], SyndicatedArticlePage);
+                return SyndicatedArticlePage;
             }());
-            exports_1("GlobalModule", GlobalModule);
+            exports_1("SyndicatedArticlePage", SyndicatedArticlePage);
         }
     }
 });

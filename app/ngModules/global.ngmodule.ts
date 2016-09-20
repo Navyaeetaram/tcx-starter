@@ -1,10 +1,8 @@
+import {CommonModule} from "@angular/common";
 import { NgModule }from '@angular/core';
 
-
-
-
 import { HeaderComponent } from "../fe-core/components/header/header.component";
-import {CommonModule} from "@angular/common";
+
 
 @NgModule({
     imports: [
@@ -15,8 +13,7 @@ import {CommonModule} from "@angular/common";
     ],
     exports:[
         HeaderComponent
-    ]
-
-
+    ],
+    providers: []
 })
 export class GlobalModule { }
