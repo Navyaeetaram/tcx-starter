@@ -12,11 +12,8 @@ var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var forms_1 = require('@angular/forms');
 var app_component_1 = require('./components/app/app.component');
-var hero_detail_component_1 = require('./components/hero-detail/hero-detail.component');
-var heroes_component_1 = require('./components/heroes/heroes.component');
-var dashboard_component_1 = require('./components/dashboard/dashboard.component');
-var hero_service_1 = require('./services/hero.service');
 var app_routing_1 = require('./app.routing');
+var deep_dive_ngmodule_1 = require("./ngModules/deep-dive-ngmodule");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -25,17 +22,13 @@ var AppModule = (function () {
             imports: [
                 platform_browser_1.BrowserModule,
                 forms_1.FormsModule,
+                deep_dive_ngmodule_1.DeepDiveNgModule,
                 app_routing_1.routing
             ],
             declarations: [
-                app_component_1.AppComponent,
-                dashboard_component_1.DashboardComponent,
-                hero_detail_component_1.HeroDetailComponent,
-                heroes_component_1.HeroesComponent
+                app_component_1.AppComponent
             ],
-            providers: [
-                hero_service_1.HeroService
-            ],
+            providers: [],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

@@ -1,26 +1,16 @@
 "use strict";
 var router_1 = require('@angular/router');
-var heroes_component_1 = require('./components/heroes/heroes.component');
-var hero_detail_component_1 = require('./components/hero-detail/hero-detail.component');
-var dashboard_component_1 = require('./components/dashboard/dashboard.component');
+var deep_dive_page_1 = require("./webpages/deep-dive-page/deep-dive-page");
 var appRoutes = [
     {
         path: '',
-        redirectTo: '/dashboard',
+        redirectTo: '/home',
         pathMatch: 'full'
     },
     {
-        path: 'heroes',
-        component: heroes_component_1.HeroesComponent
+        path: 'home',
+        component: deep_dive_page_1.DeepDivePage
     },
-    {
-        path: 'dashboard',
-        component: dashboard_component_1.DashboardComponent
-    },
-    {
-        path: 'detail/:id',
-        component: hero_detail_component_1.HeroDetailComponent
-    }
 ];
 exports.routing = router_1.RouterModule.forRoot(appRoutes);
 //# sourceMappingURL=app.routing.js.map
