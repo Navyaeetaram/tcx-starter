@@ -11,27 +11,27 @@ System.register(['@angular/core'], function(exports_1, context_1) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
     var core_1;
-    var HeaderComponent;
+    var AppComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             }],
         execute: function() {
-            HeaderComponent = (function () {
-                function HeaderComponent() {
-                    this.partnerID = "partnerId";
+            AppComponent = (function () {
+                function AppComponent() {
+                    this.title = 'Root';
                 }
-                HeaderComponent = __decorate([
+                AppComponent = __decorate([
                     core_1.Component({
-                        selector: 'header-component',
-                        templateUrl: './app/fe-core/components/header/header.component.html',
+                        selector: 'my-app',
+                        templateUrl: 'app/app-domain/app.component.html'
                     }), 
                     __metadata('design:paramtypes', [])
-                ], HeaderComponent);
-                return HeaderComponent;
+                ], AppComponent);
+                return AppComponent;
             }());
-            exports_1("HeaderComponent", HeaderComponent);
+            exports_1("AppComponent", AppComponent);
         }
     }
 });
