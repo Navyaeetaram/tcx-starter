@@ -1,15 +1,20 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
+import { NgModule }from '@angular/core';
+
 import { HeaderComponent } from "../fe-core/components/header/header.component";
+import {CommonModule} from "@angular/common";
 
 @NgModule({
-    imports:[CommonModule, HeaderComponent],
-    declarations:[
-      HeaderComponent,
+    imports: [
+      CommonModule
+    ],
+    declarations: [
+        HeaderComponent
     ],
     exports:[
-      HeaderComponent
+        HeaderComponent
     ]
-})
 
-export class GlobalNgModule{}
+
+})
+export class GlobalModule { }

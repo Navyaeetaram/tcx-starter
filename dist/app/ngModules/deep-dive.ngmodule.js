@@ -32,10 +32,7 @@ System.register(['@angular/core', '@angular/common', './global.ngmodule', "../we
                 }
                 DeepDiveNgModule = __decorate([
                     core_1.NgModule({
-                        imports: [
-                            common_1.CommonModule,
-                            global_ngmodule_1.GlobalNgModule
-                        ],
+                        imports: [common_1.CommonModule, global_ngmodule_1.GlobalModule],
                         declarations: [
                             deep_dive_page_1.DeepDivePage,
                         ],
@@ -51,3 +48,4 @@ System.register(['@angular/core', '@angular/common', './global.ngmodule', "../we
         }
     }
 });
+//# sourceMappingURL=deep-dive.ngmodule.js.map

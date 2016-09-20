@@ -1,4 +1,4 @@
-System.register(['@angular/core', '@angular/common', "../fe-core/components/header/header.component"], function(exports_1, context_1) {
+System.register(['@angular/core', "../fe-core/components/header/header.component", "@angular/common"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,38 +10,41 @@ System.register(['@angular/core', '@angular/common', "../fe-core/components/head
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, common_1, header_component_1;
-    var GlobalNgModule;
+    var core_1, header_component_1, common_1;
+    var GlobalModule;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             },
-            function (common_1_1) {
-                common_1 = common_1_1;
-            },
             function (header_component_1_1) {
                 header_component_1 = header_component_1_1;
+            },
+            function (common_1_1) {
+                common_1 = common_1_1;
             }],
         execute: function() {
-            GlobalNgModule = (function () {
-                function GlobalNgModule() {
+            GlobalModule = (function () {
+                function GlobalModule() {
                 }
-                GlobalNgModule = __decorate([
+                GlobalModule = __decorate([
                     core_1.NgModule({
-                        imports: [common_1.CommonModule, header_component_1.HeaderComponent],
+                        imports: [
+                            common_1.CommonModule
+                        ],
                         declarations: [
-                            header_component_1.HeaderComponent,
+                            header_component_1.HeaderComponent
                         ],
                         exports: [
                             header_component_1.HeaderComponent
                         ]
                     }), 
                     __metadata('design:paramtypes', [])
-                ], GlobalNgModule);
-                return GlobalNgModule;
+                ], GlobalModule);
+                return GlobalModule;
             }());
-            exports_1("GlobalNgModule", GlobalNgModule);
+            exports_1("GlobalModule", GlobalModule);
         }
     }
 });
+//# sourceMappingURL=global.ngmodule.js.map

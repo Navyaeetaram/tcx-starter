@@ -1,4 +1,4 @@
-System.register(['@angular/core', '@angular/platform-browser', '@angular/forms', '../app.routing', '../app-domain/app.component', "../ngModules/deep-dive.ngmodule", "../ngModules/syndicated-article.ngmodule", "./global.ngmodule"], function(exports_1, context_1) {
+System.register(['@angular/core', '@angular/platform-browser', '@angular/forms', '../app.routing', '../app-domain/app.component', "../ngModules/deep-dive.ngmodule", "./global.ngmodule"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['@angular/core', '@angular/platform-browser', '@angular/forms',
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, platform_browser_1, forms_1, app_routing_1, app_component_1, deep_dive_ngmodule_1, syndicated_article_ngmodule_1, global_ngmodule_1;
+    var core_1, platform_browser_1, forms_1, app_routing_1, app_component_1, deep_dive_ngmodule_1, global_ngmodule_1;
     var AppModule;
     return {
         setters:[
@@ -32,9 +32,6 @@ System.register(['@angular/core', '@angular/platform-browser', '@angular/forms',
             function (deep_dive_ngmodule_1_1) {
                 deep_dive_ngmodule_1 = deep_dive_ngmodule_1_1;
             },
-            function (syndicated_article_ngmodule_1_1) {
-                syndicated_article_ngmodule_1 = syndicated_article_ngmodule_1_1;
-            },
             function (global_ngmodule_1_1) {
                 global_ngmodule_1 = global_ngmodule_1_1;
             }],
@@ -48,9 +45,8 @@ System.register(['@angular/core', '@angular/platform-browser', '@angular/forms',
                             platform_browser_1.BrowserModule,
                             forms_1.FormsModule,
                             app_routing_1.routing,
-                            global_ngmodule_1.GlobalNgModule,
                             deep_dive_ngmodule_1.DeepDiveNgModule,
-                            syndicated_article_ngmodule_1.SyndicatedArticleNgModule
+                            global_ngmodule_1.GlobalModule
                         ],
                         declarations: [
                             app_component_1.AppComponent
@@ -66,3 +62,4 @@ System.register(['@angular/core', '@angular/platform-browser', '@angular/forms',
         }
     }
 });
+//# sourceMappingURL=app.ngmodule.js.map

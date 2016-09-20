@@ -5,17 +5,17 @@ import { routing } from '../app.routing';
 
 import { AppComponent }  from '../app-domain/app.component';
 import { DeepDiveNgModule } from "../ngModules/deep-dive.ngmodule";
-import { SyndicatedArticleNgModule } from "../ngModules/syndicated-article.ngmodule";
-import { GlobalNgModule } from "./global.ngmodule";
+
+import {GlobalModule} from "./global.ngmodule";
+
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
     routing,
-    GlobalNgModule,
     DeepDiveNgModule,
-    SyndicatedArticleNgModule
+      GlobalModule
   ],
   declarations: [
     AppComponent
