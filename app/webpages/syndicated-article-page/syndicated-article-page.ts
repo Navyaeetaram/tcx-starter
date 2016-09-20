@@ -5,4 +5,6 @@ import {Component} from '@angular/core';
     templateUrl: 'app/webpages/syndicated-article-page/syndicated-article-page.html'
 })
 
-export class SyndicatedArticlePage{}
+export class SyndicatedArticlePage{
+    title:string="Here we have syndicate article page"
+}
