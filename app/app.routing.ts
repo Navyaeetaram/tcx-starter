@@ -8,15 +8,15 @@ import {SyndicatedArticlePage} from "./webpages/syndicated-article-page/syndicat
 const appRoutes: Routes = [
   {
     path: '',
-    redirectTo: '/home',
+    redirectTo: 'deep-dive',
     pathMatch: 'full'
   },
   {
-    path: 'home',
+    path: 'deep-dive',
     component: DeepDivePage
   },
   {
-    path: 'syndiated-article',
+    path: 'syndicated-article',
     component: SyndicatedArticlePage
   }
 ];

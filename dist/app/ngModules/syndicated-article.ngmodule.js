@@ -32,13 +32,17 @@ System.register(['@angular/core', '@angular/common', './global.ngmodule', "../we
                 }
                 SyndicatedArticleNgModule = __decorate([
                     core_1.NgModule({
-                        imports: [common_1.CommonModule, global_ngmodule_1.GlobalModule],
+                        imports: [
+                            common_1.CommonModule,
+                            global_ngmodule_1.GlobalModule
+                        ],
                         declarations: [
                             syndicated_article_page_1.SyndicatedArticlePage
                         ],
                         exports: [
                             syndicated_article_page_1.SyndicatedArticlePage
-                        ]
+                        ],
+                        providers: []
                     }), 
                     __metadata('design:paramtypes', [])
                 ], SyndicatedArticleNgModule);
@@ -48,4 +52,3 @@ System.register(['@angular/core', '@angular/common', './global.ngmodule', "../we
         }
     }
 });
-//# sourceMappingURL=syndicated-article.ngmodule.js.map

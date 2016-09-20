@@ -18,15 +18,15 @@ System.register(['@angular/router', "./webpages/deep-dive-page/deep-dive-page", 
             appRoutes = [
                 {
                     path: '',
-                    redirectTo: '/home',
+                    redirectTo: 'deep-dive',
                     pathMatch: 'full'
                 },
                 {
-                    path: 'home',
+                    path: 'deep-dive',
                     component: deep_dive_page_1.DeepDivePage
                 },
                 {
-                    path: 'syndiated-article',
+                    path: 'syndicated-article',
                     component: syndicated_article_page_1.SyndicatedArticlePage
                 }
             ];

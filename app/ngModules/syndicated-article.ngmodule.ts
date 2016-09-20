@@ -4,13 +4,17 @@ import { GlobalModule } from './global.ngmodule';
 import { SyndicatedArticlePage } from "../webpages/syndicated-article-page/syndicated-article-page";
 
 @NgModule({
-    imports:[CommonModule, GlobalModule],
+    imports:[
+      CommonModule,
+      GlobalModule
+    ],
     declarations:[
       SyndicatedArticlePage
     ],
     exports:[
       SyndicatedArticlePage
-    ]
+    ],
+    providers: []
 })
 
 export class SyndicatedArticleNgModule{}
