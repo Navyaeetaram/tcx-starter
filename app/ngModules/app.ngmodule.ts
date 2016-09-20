@@ -5,14 +5,17 @@ import { routing } from '../app.routing';
 
 import { AppComponent }  from '../app-domain/app.component';
 import { DeepDiveNgModule } from "../ngModules/deep-dive.ngmodule";
-import { HeaderComponent } from "../fe-core/components/header/header.component";
+import { SyndicatedArticleNgModule } from "../ngModules/syndicated-article.ngmodule";
+import { GlobalNgModule } from "./global.ngmodule";
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
     routing,
+    GlobalNgModule,
     DeepDiveNgModule,
+    SyndicatedArticleNgModule
   ],
   declarations: [
     AppComponent

@@ -1,4 +1,4 @@
-System.register(['@angular/core', '@angular/common', './global.ngmodule', "../webpages/deep-dive-page/deep-dive-page"], function(exports_1, context_1) {
+System.register(['@angular/core', '@angular/common', "../fe-core/components/header/header.component"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,8 +10,8 @@ System.register(['@angular/core', '@angular/common', './global.ngmodule', "../we
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, common_1, global_ngmodule_1, deep_dive_page_1;
-    var DeepDiveNgModule;
+    var core_1, common_1, header_component_1;
+    var GlobalNgModule;
     return {
         setters:[
             function (core_1_1) {
@@ -20,34 +20,28 @@ System.register(['@angular/core', '@angular/common', './global.ngmodule', "../we
             function (common_1_1) {
                 common_1 = common_1_1;
             },
-            function (global_ngmodule_1_1) {
-                global_ngmodule_1 = global_ngmodule_1_1;
-            },
-            function (deep_dive_page_1_1) {
-                deep_dive_page_1 = deep_dive_page_1_1;
+            function (header_component_1_1) {
+                header_component_1 = header_component_1_1;
             }],
         execute: function() {
-            DeepDiveNgModule = (function () {
-                function DeepDiveNgModule() {
+            GlobalNgModule = (function () {
+                function GlobalNgModule() {
                 }
-                DeepDiveNgModule = __decorate([
+                GlobalNgModule = __decorate([
                     core_1.NgModule({
-                        imports: [
-                            common_1.CommonModule,
-                            global_ngmodule_1.GlobalNgModule
-                        ],
+                        imports: [common_1.CommonModule, header_component_1.HeaderComponent],
                         declarations: [
-                            deep_dive_page_1.DeepDivePage,
+                            header_component_1.HeaderComponent,
                         ],
                         exports: [
-                            deep_dive_page_1.DeepDivePage
-                        ],
+                            header_component_1.HeaderComponent
+                        ]
                     }), 
                     __metadata('design:paramtypes', [])
-                ], DeepDiveNgModule);
-                return DeepDiveNgModule;
+                ], GlobalNgModule);
+                return GlobalNgModule;
             }());
-            exports_1("DeepDiveNgModule", DeepDiveNgModule);
+            exports_1("GlobalNgModule", GlobalNgModule);
         }
     }
 });

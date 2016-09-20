@@ -1,15 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { GlobalNgModule } from './global.ngmodule';
 import { DeepDivePage } from "../webpages/deep-dive-page/deep-dive-page";
-import { HeaderComponent } from "../fe-core/components/header/header.component";
 
 @NgModule({
-    imports:[CommonModule],
+    imports:[
+      CommonModule,
+      GlobalNgModule
+    ],
     declarations:[
       DeepDivePage,
-      HeaderComponent
     ],
-    exports:[DeepDivePage],
+    exports:[
+      DeepDivePage
+    ],
 })
 
 export class DeepDiveNgModule{}

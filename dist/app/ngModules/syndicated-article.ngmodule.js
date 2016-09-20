@@ -1,4 +1,4 @@
-System.register(['@angular/core', '@angular/common', './global.ngmodule', "../webpages/deep-dive-page/deep-dive-page"], function(exports_1, context_1) {
+System.register(['@angular/core', '@angular/common', './global.ngmodule', "../webpages/syndicated-article-page/syndicated-article-page"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,8 +10,8 @@ System.register(['@angular/core', '@angular/common', './global.ngmodule', "../we
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, common_1, global_ngmodule_1, deep_dive_page_1;
-    var DeepDiveNgModule;
+    var core_1, common_1, global_ngmodule_1, syndicated_article_page_1;
+    var SyndicatedArticleNgModule;
     return {
         setters:[
             function (core_1_1) {
@@ -23,31 +23,28 @@ System.register(['@angular/core', '@angular/common', './global.ngmodule', "../we
             function (global_ngmodule_1_1) {
                 global_ngmodule_1 = global_ngmodule_1_1;
             },
-            function (deep_dive_page_1_1) {
-                deep_dive_page_1 = deep_dive_page_1_1;
+            function (syndicated_article_page_1_1) {
+                syndicated_article_page_1 = syndicated_article_page_1_1;
             }],
         execute: function() {
-            DeepDiveNgModule = (function () {
-                function DeepDiveNgModule() {
+            SyndicatedArticleNgModule = (function () {
+                function SyndicatedArticleNgModule() {
                 }
-                DeepDiveNgModule = __decorate([
+                SyndicatedArticleNgModule = __decorate([
                     core_1.NgModule({
-                        imports: [
-                            common_1.CommonModule,
-                            global_ngmodule_1.GlobalNgModule
-                        ],
+                        imports: [common_1.CommonModule, global_ngmodule_1.GlobalNgModule],
                         declarations: [
-                            deep_dive_page_1.DeepDivePage,
+                            syndicated_article_page_1.SyndicatedArticlePage
                         ],
                         exports: [
-                            deep_dive_page_1.DeepDivePage
-                        ],
+                            syndicated_article_page_1.SyndicatedArticlePage
+                        ]
                     }), 
                     __metadata('design:paramtypes', [])
-                ], DeepDiveNgModule);
-                return DeepDiveNgModule;
+                ], SyndicatedArticleNgModule);
+                return SyndicatedArticleNgModule;
             }());
-            exports_1("DeepDiveNgModule", DeepDiveNgModule);
+            exports_1("SyndicatedArticleNgModule", SyndicatedArticleNgModule);
         }
     }
 });
