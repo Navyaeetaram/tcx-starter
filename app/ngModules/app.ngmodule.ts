@@ -5,7 +5,8 @@ import { routing } from '../app.routing';
 
 import { AppComponent }  from '../app-domain/app.component';
 import { DeepDiveNgModule } from "../ngModules/deep-dive.ngmodule";
-import { HeaderComponent } from "../fe-core/components/header/header.component";
+
+import {GlobalModule} from "./global.ngmodule";
 
 @NgModule({
   imports: [
@@ -13,6 +14,7 @@ import { HeaderComponent } from "../fe-core/components/header/header.component";
     FormsModule,
     routing,
     DeepDiveNgModule,
+      GlobalModule
   ],
   declarations: [
     AppComponent
