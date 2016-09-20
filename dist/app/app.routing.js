@@ -21,7 +21,7 @@ System.register(['@angular/router', "./webpages/deep-dive-page/deep-dive-page"],
                 {
                     path: 'home',
                     component: deep_dive_page_1.DeepDivePage
-                },
+                }
             ];
             exports_1("routing", routing = router_1.RouterModule.forRoot(appRoutes));
         }

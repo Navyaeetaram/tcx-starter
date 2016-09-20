@@ -13,8 +13,7 @@ const appRoutes: Routes = [
   {
     path: 'home',
     component: DeepDivePage
-  },
-
+  }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

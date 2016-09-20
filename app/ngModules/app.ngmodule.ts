@@ -4,8 +4,8 @@ import { FormsModule }   from '@angular/forms';
 import { routing } from '../app.routing';
 
 import { AppComponent }  from '../app-domain/app.component';
-import {DeepDiveNgModule} from "../ngModules/deep-dive.ngmodule";
-import {HeaderComponent} from "../fe-core/components/header/header.component";
+import { DeepDiveNgModule } from "../ngModules/deep-dive.ngmodule";
+import { HeaderComponent } from "../fe-core/components/header/header.component";
 
 @NgModule({
   imports: [
